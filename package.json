@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "bikehub is a collection of micro-services designed to provide client applications with all the functionality required as e-commerce platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateicristian07/bikehub-backend/issues"
+  },
+  "homepage": "https://github.com/mateicristian07/bikehub-backend#readme"
+}
