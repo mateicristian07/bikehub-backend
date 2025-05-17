@@ -39,7 +39,7 @@ app.use((req, res, next) => {
 app.use((err: CustomError, req: Request, res: Response, next: NextFunction) => {
   // set locals, only providing error in DEV
   res.locals.message = err.message;
-  // res.locals.error = req.app.get('env') === 'DEV' ? err : {};
+  res.locals.error = req.app.get('env') === 'DEV' ? err : {};
 
   // render the error page
   res.status(err.status || 500);
