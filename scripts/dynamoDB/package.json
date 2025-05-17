@@ -1,0 +1,15 @@
+{
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "type": "module",
+  "main": "createTable.js",
+  "scripts": {
+    "create": "node ./createTable.js",
+    "testQuery": "node ./testQuery.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.812.0",
+    "@aws-sdk/lib-dynamodb": "^3.812.0"
+  }
+}
